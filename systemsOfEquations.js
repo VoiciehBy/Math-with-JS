@@ -1,5 +1,5 @@
-class Matrix{
-    constructor(m,n,rank,det){
+class Matrix {
+    constructor(m, n, rank, det) {
         this.m = m;
         this.n = n;
         this.rank = rank;
@@ -9,7 +9,7 @@ class Matrix{
 
 function whatSSystemOfEquations(A, Aa, numberOfEquations) {
     var result = "System of equations is ...";
-    var r = A.rank,r1 = Aa.rank;
+    var r = A.rank, r1 = Aa.rank;
     var n = numberOfEquations;
     if (r === r1) {
         result += "consistent...";
