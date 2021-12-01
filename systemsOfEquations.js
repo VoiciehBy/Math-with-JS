@@ -7,10 +7,10 @@ class Matrix {
     }
 }
 
-function whatSSystemOfEquations(A, Aa, numberOfUnkowns) {
+function whatSSystemOfEquations(A, Aa, numberOfUnknowns) {
     var result = "System of equations is ...";
     var r = A.rank, r1 = Aa.rank;
-    var n = numberOfUnkowns;
+    var n = numberOfUnknowns;
     if (r === r1) {
         result += "consistent...";
         if (r1 === n) result += "and determinate...";
