@@ -29,3 +29,14 @@ function whatSSystemOfEquations(A) {
     else result += "?";
     return result;
 }
+/*
+let A = new Matrix(2,2,5,-2);
+let B = new Matrix(2,3,1,-4);
+let C = new Matrix(2,2,1,-4);
+
+console.log(whatSSystemOfEquations(A, A, 1));
+
+console.log(whatSSystemOfEquations(A));
+console.log(whatSSystemOfEquations(B));
+console.log(whatSSystemOfEquations(C));
+*/
